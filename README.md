@@ -63,6 +63,13 @@ In this repository, I will make a site for coding challenge of Full Stack Web De
 - [x] Project Setup
 - [x] Create a HTML and CSS Structure
 - [x] Add Header & Style background
+- [x] Add Main & Style
+- [x] Add Sections as Cards
+- [x] Positioning Cards
+- [x] Positioning Cards with Float Left
+- [x] Positioning Texts in Cards with Float Right
+- [x] Add Button & Style
+- [x] Positioning Button in Cards with Float Right
 
 
 

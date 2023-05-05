@@ -16,12 +16,97 @@ body {
 header {
   text-align: center;
   margin: 10px;
-  font-family: "Rubik Vinyl", cursive;
+  font-family: "Bruno Ace SC", cursive;
   color: white;
   font-size: 2.5rem;
   letter-spacing: 3px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
+
 main {
   display: grid;
   place-items: center;
+}
+/* That was so beautiful effect but it uses so much power IDK Why */
+/* @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+} */
+section {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+}
+h3 {
+  font-size: 2rem;
+  color: rgb(162, 80, 8);
+  text-align: center;
+  margin-bottom: 20px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 2em;
+}
+img {
+  padding: 5px;
+  width: 100%;
+  float: left;
+  height: 225px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 20px;
+}
+img:hover {
+  cursor: pointer;
+  height: 275px;
+  width: max-content;
+
+  /* Fix with for safari */
+  width: 30vw;
+  border-radius: 10px;
+}
+text {
+  margin-top: 45px;
+  width: 70%;
+  float: right;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  float: right;
+  margin-top: 50px;
+  margin-right: 10px;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: coral;
+  color: white;
+  border: none;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+button:hover {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 120px;
+  height: 45px;
+}
+.img {
+  width: 30%;
 }
