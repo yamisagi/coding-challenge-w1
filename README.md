@@ -70,6 +70,8 @@ In this repository, I will make a site for coding challenge of Full Stack Web De
 - [x] Positioning Texts in Cards with Float Right
 - [x] Add Button & Style
 - [x] Positioning Button in Cards with Float Right
+- [x] Add Glow effect to H tags
+- [x] Project Ready for Deployment
 
 
 
