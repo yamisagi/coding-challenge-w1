@@ -61,6 +61,8 @@ In this repository, I will make a site for coding challenge of Full Stack Web De
 ## Roadmap
 
 - [x] Project Setup
+- [x] Create a HTML and CSS Structure
+- [x] Add Header & Style background
 
 
 

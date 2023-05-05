@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 83, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+header {
+  text-align: center;
+  margin: 10px;
+  font-family: "Rubik Vinyl", cursive;
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+main {
+  display: grid;
+  place-items: center;
+}
